@@ -1,0 +1,909 @@
+openapi: 3.0.0
+info:
+  title: OPT Dashboard Backend API
+  description: This is the API documentation for the OPT Dashboard Backend API.
+  version: 1.0.0
+servers:
+  - url: http://api.example.com/v1
+    description: Optional server description, e.g. Main (production) server
+  - url: http://staging-api.example.com
+    description: Optional server description, e.g. Internal staging server for testing
+paths:
+  /glines:
+    get:
+      summary: Retrieve all glines
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  glines:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        name:
+                          type: string
+                        active:
+                          type: boolean
+  /glines/{glineId}/lines:
+    get:
+      summary: Retrieve line IDs for a gline
+      parameters:
+        - name: glineId
+          in: path
+          description: ID of the gline
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  glineId:
+                    type: integer
+                    example: 801005
+                  lineIds:
+                    type: array
+                    items:
+                      type: integer
+                    example: [1055, 1475, 2214, 800325, 800366]
+                  status:
+                    type: string
+                    example: OK
+  /glines/{glineId}/schedules:
+    get:
+      summary: Retrieve schedule IDs for a gline
+      parameters:
+        - name: glineId
+          in: path
+          description: ID of the gline
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  glineId:
+                    type: integer
+                    example: 801005
+                  scheduleIds:
+                    type: array
+                    items:
+                      type: integer
+                    example: [12180874, 12181605, 12182108, ...]
+                  status:
+                    type: string
+                    example: OK
+  /lines:
+    get:
+      summary: Retrieve all lines
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  lines:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 800467
+                        name:
+                          type: string
+                          example: "709"
+                        active:
+                          type: boolean
+                          example: true
+                        color:
+                          type: integer
+                          example: 0
+                    example:
+                      - id: 800467
+                        name: "709"
+                        active: true
+                        color: 0
+                      - id: 1475
+                        name: "106"
+                        active: true
+                        color: 0
+                      - id: 800506
+                        name: "42"
+                        active: true
+                        color: 0
+                  status:
+                    type: string
+                    example: "OK"
+  /lines/{lineCode}:
+    get:
+      summary: Retrieve line information by code/name
+      parameters:
+        - in: path
+          name: Line code
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  lineInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 1019
+                      name:
+                        type: string
+                        example: "204"
+                      active:
+                        type: boolean
+                        example: true
+                      color:
+                        type: integer
+                        example: 0
+                    example:
+                      id: 1019
+                      name: "204"
+                      active: true
+                      color: 0
+                  status:
+                    type: string
+                    example: "OK"
+  /lines/{lineId}/paths:
+    get:
+      summary: Retrieve path IDs for a specific line
+      parameters:
+        - in: path
+          name: line Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  lineId:
+                    type: integer
+                    example: 800387
+                  pathIds:
+                    type: array
+                    items:
+                      type: integer
+                    example: [1612369, 1612368, 1615491, 1615490]
+                  status:
+                    type: string
+                    example: "OK"
+  /nodes:
+    get:
+      summary: Retrieve all nodes
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nodes:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 800165
+                        name:
+                          type: string
+                          example: "Prelada"
+                        short_name:
+                          type: string
+                          example: "PLA"
+                        latitude:
+                          type: string
+                          example: "41,17066477"
+                        longitude:
+                          type: string
+                          example: "-8,626961291"
+                        label_pos:
+                          type: string
+                          example: "T"
+                        visible:
+                          type: boolean
+                          example: true
+                        is_depot:
+                          type: boolean
+                          example: false
+                  status:
+                    type: string
+                    example: "OK"
+  /nodes/{nodeId}:
+    get:
+      summary: Retrieve node information by ID
+      parameters:
+        - name: nodeId
+          in: path
+          description: ID of the node to retrieve information for
+          required: true
+          schema:
+            type: integer
+            example: 800165
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nodeInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 800165
+                      name:
+                        type: string
+                        example: "Prelada"
+                      short_name:
+                        type: string
+                        example: "PLA"
+                      latitude:
+                        type: string
+                        example: "41,17066477"
+                      longitude:
+                        type: string
+                        example: "-8,626961291"
+                      label_pos:
+                        type: string
+                        example: "T"
+                      visible:
+                        type: boolean
+                        example: true
+                      is_depot:
+                        type: boolean
+                        example: false
+                  status:
+                    type: string
+                    example: "OK"
+  /paths:
+    get:
+      summary: Retrieve all paths
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  paths:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 1611063
+                        name:
+                          type: string
+                          example: "700_Campo_Bolhao Mercado"
+                        empty:
+                          type: boolean
+                          example: false
+                        type_value:
+                          type: integer
+                          example: 0
+                        old_type_value:
+                          type: integer
+                          example: 0
+                  status:
+                    type: string
+                    example: "OK"
+  /paths/{pathId}:
+    parameters:
+      - in: path
+        name: pathId
+        required: true
+        schema:
+          type: integer
+        description: ID of the path
+    get:
+      summary: Retrieve path by ID
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  pathInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 1611063
+                      name:
+                        type: string
+                        example: "700_Campo_Bolhao Mercado"
+                      empty:
+                        type: boolean
+                        example: false
+                      type_value:
+                        type: integer
+                        example: 0
+                      old_type_value:
+                        type: integer
+                        example: 0
+                  status:
+                    type: string
+                    example: "OK"
+  /paths/segs:
+    get:
+      summary: Retrieve path segments
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  pathsSegs:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 1625435
+                        seg_id:
+                          type: integer
+                          example: 9730
+                        path_version_id:
+                          type: integer
+                          example: 1615370
+                        length:
+                          type: integer
+                          example: 2520
+                        ptsg_order:
+                          type: integer
+                          example: 3
+                  status:
+                    type: string
+                    example: "OK"
+  /segs:
+    get:
+      summary: Retrieve all segments
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  segs:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 806419
+                        name:
+                          type: string
+                          example: "100_Rotunda AEP_Rotunda do Bessa"
+                        start_node_id:
+                          type: integer
+                          example: 52
+                        end_node_id:
+                          type: integer
+                          example: 800447
+                        segment_type:
+                          type: integer
+                          example: 1
+                        default_length:
+                          type: integer
+                          nullable: true
+                          example: null
+                        average_duration:
+                          type: integer
+                          example: 1
+                        visible:
+                          type: boolean
+                          example: true
+                  status:
+                    type: string
+                    example: "OK"
+  /segs/{segId}:
+    get:
+      summary: Retrieve segment by ID
+      parameters:
+        - name: segId
+          in: path
+          description: ID of the segment to retrieve
+          required: true
+          schema:
+            type: integer
+          example: 806419
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  segInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 806419
+                      name:
+                        type: string
+                        example: "100_Rotunda AEP_Rotunda do Bessa"
+                      start_node_id:
+                        type: integer
+                        example: 52
+                      end_node_id:
+                        type: integer
+                        example: 800447
+                      segment_type:
+                        type: integer
+                        example: 1
+                      default_length:
+                        type: integer
+                        nullable: true
+                        example: null
+                      average_duration:
+                        type: integer
+                        example: 1
+                      visible:
+                        type: boolean
+                        example: true
+                  status:
+                    type: string
+                    example: "OK"
+  /trips:
+    get:
+      summary: Retrieve all trips
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  trips:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 42488550
+                        path_id:
+                          type: integer
+                          example: 172351
+                        line_id:
+                          type: integer
+                          example: 895
+                        start_node_id:
+                          type: integer
+                          example: 64
+                        start_time:
+                          type: integer
+                          example: 29820
+                        end_node_id:
+                          type: integer
+                          example: 23
+                        end_time:
+                          type: integer
+                          example: 33540
+                        empty:
+                          type: boolean
+                          example: false
+                        orientation:
+                          type: string
+                          example: "R"
+                        schedule_id:
+                          type: integer
+                          example: 12178117
+                  status:
+                    type: string
+                    example: "OK"
+  /trips/{tripId}:
+    get:
+      summary: Retrieve trip information by ID
+      parameters:
+        - in: path
+          name: tripId
+          description: ID of the trip to retrieve
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tripInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 42643594
+                      path_id:
+                        type: integer
+                        example: 1615190
+                      line_id:
+                        type: integer
+                        example: 800446
+                      start_node_id:
+                        type: integer
+                        example: 50
+                      start_time:
+                        type: integer
+                        example: 67800
+                      end_node_id:
+                        type: integer
+                        example: 7
+                      end_time:
+                        type: integer
+                        example: 69120
+                      empty:
+                        type: boolean
+                        example: false
+                      orientation:
+                        type: string
+                        example: "G"
+                      schedule_id:
+                        type: integer
+                        example: 12181789
+                  status:
+                    type: string
+                    example: "OK"
+  /vehicleDuties:
+    get:
+      summary: Retrieve all vehicle duties
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  vehicleDuties:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 3981687
+                        code:
+                          type: integer
+                          example: 8
+                        color:
+                          type: integer
+                          example: 15702186
+                        depots:
+                          type: integer
+                          example: 0
+                        schedule_id:
+                          type: integer
+                          example: 12182877
+                  status:
+                    type: string
+                    example: "OK"
+  /vehicleDuties/{vehicleDutyId}:
+    get:
+      summary: Retrieve vehicle duty information by ID
+      parameters:
+        - name: vehicleDutyId
+          in: path
+          description: ID of the vehicle duty
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  vehicleDutyInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 3983931
+                      code:
+                        type: integer
+                        example: 2
+                      color:
+                        type: integer
+                        example: 15526590
+                      depots:
+                        type: integer
+                        example: 0
+                      schedule_id:
+                        type: integer
+                        example: 12183717
+                  status:
+                    type: string
+                    example: "OK"
+  /workBlocks:
+    get:
+      summary: Retrieve all work blocks
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  workBlocks:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 37005747
+                        active:
+                          type: boolean
+                          example: true
+                        start_time:
+                          type: integer
+                          example: 76740
+                        end_time:
+                          type: integer
+                          example: 78480
+                        start_node_id:
+                          type: integer
+                          example: 1486
+                        end_node_id:
+                          type: integer
+                          example: 28
+                        type:
+                          type: string
+                          example: "D"
+                        schedule_id:
+                          type: integer
+                          example: 12179025
+                  status:
+                    type: string
+                    example: "OK"
+  /workBlocks/{workBlockId}:
+    parameters:
+      - in: path
+        name: workBlockId
+        required: true
+        schema:
+          type: integer
+        description: The ID of the work block
+    get:
+      summary: Retrieve a specific work block
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  workBlockInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 37005161
+                      active:
+                        type: boolean
+                        example: true
+                      start_time:
+                        type: integer
+                        example: 43200
+                      end_time:
+                        type: integer
+                        example: 46800
+                      start_node_id:
+                        type: integer
+                        example: 82
+                      end_node_id:
+                        type: integer
+                        example: 82
+                      type:
+                        type: string
+                        example: "D"
+                      schedule_id:
+                        type: integer
+                        example: 12179015
+                  status:
+                    type: string
+                    example: "OK"    
+  /schedules:
+    get:
+      summary: Retrieve all schedules
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  schedules:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 12183519
+                        gistline_id:
+                          type: integer
+                          example: 2617
+                        year_season_id:
+                          type: integer
+                          example: 1
+                        day_type_id:
+                          type: integer
+                          example: 2
+                        version:
+                          type: string
+                          example: "24 de dezembro 2022"
+                        active:
+                          type: boolean
+                          example: false
+                  status:
+                    type: string
+                    example: "OK"
+  /schedules/{scheduleId}:
+    parameters:
+      - in: path
+        name: scheduleId
+        required: true
+        schema:
+          type: integer
+        description: ID of the schedule
+    get:
+      summary: Retrieve schedule information by ID
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  scheduleInfo:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 12178547
+                      gistline_id:
+                        type: integer
+                        example: 1838
+                      year_season_id:
+                        type: integer
+                        example: 1
+                      day_type_id:
+                        type: integer
+                        example: 2
+                      version:
+                        type: string
+                        example: "20"
+                      active:
+                        type: boolean
+                        example: true
+                  status:
+                    type: string
+                    example: "OK"           
+  /schedules/{scheduleId}/workBlocks:
+    parameters:
+      - in: path
+        name: scheduleId
+        required: true
+        schema:
+          type: integer
+        description: ID of the schedule
+    get:
+      summary: Retrieve work blocks for a schedule
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  scheduleId:
+                    type: integer
+                    example: 12178547
+                  workBlockIds:
+                    type: array
+                    items:
+                      type: integer
+                    example: [36999056, 36999057, 36999058, ...]
+                  status:
+                    type: string
+                    example: "OK"
+  /schedules/{scheduleId}/trips:
+    parameters:
+      - in: path
+        name: scheduleId
+        required: true
+        schema:
+          type: integer
+        description: ID of the schedule
+    get:
+      summary: Retrieve trips for a schedule
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  scheduleId:
+                    type: integer
+                    example: 12178547
+                  tripIds:
+                    type: array
+                    items:
+                      type: integer
+                    example: [42508123, 42508124, 42508125, ...]
+                  status:
+                    type: string
+                    example: "OK"
+
+
+
+
+
+
+
+
+  

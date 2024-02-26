@@ -1,0 +1,888 @@
+﻿ID;NAME;EMPTY;TYPE_VALUE;OLD_TYPE_VALUE
+1611063;700_Campo_Bolhao Mercado;N;0;0
+1612167;Ramalde_UOF;N;1;0
+1613948;601_Boavista_Aeroporto (Direto;N;0;0
+1612686;302_ Cordoaria_Campo 24 de Agosto;N;0;0
+1612706;303_Campo 24 de Agosto_Cordoara;N;0;0
+1612446;35_Levada_Fanzeres;N;0;0
+1612447;35_Fanzeres_Levada;N;0;0
+1611624;Campo_UOF;N;1;0
+402401;705_Alto da Serra_Valongo;N;0;0
+402403;705_Valongo_Alto da Serra;N;0;0
+402405;705_Parada_Valongo;N;0;0
+402481;705_Hospital de S.João_Valongo;N;0;0
+402483;705_Valongo_Hospital de S.Joao;N;0;0
+1611944;500_Praca Liberdade_Matosinhos;N;0;0
+401241;13M_Aliados_Matosinhos;N;0;0
+401243;13M_Matosinhos_Aliados;N;0;0
+1611945;500_Matosinhos_Praca da Liberdade;N;0;0
+401761;104_Massarrelos_Bom Sucesso;N;0;0
+402281;Monte da Virgem_UOF;N;1;0
+401201;1M_Aliados_Matosinhos;N;0;0
+401203;1M_Matosinhos_Aliados;N;0;0
+401205;3M_Aliados_Aeroporto;N;0;0
+401207;3M_Aeroporto_Aliados;N;0;0
+401209;4M_Aliados_Maia;N;0;0
+401211;4M_Maia_Aliados;N;0;0
+401213;5M_Aliados_Ermesinde;N;0;0
+401215;5M_Ermesinde_Aliados;N;0;0
+401401;205_Campanha_Lidador;N;0;0
+401521;18_Massarelos_Massarelos;N;0;0
+1610141;UOF_Valongo;N;1;0
+1610181;UOF_Gondomar;Y;1;0
+1610221;UOF_S.Pedro da Cova;N;1;0
+1610301;UOF_Valadares;N;1;0
+1610303;Valadares_UOF;N;1;0
+1610305;UOF_Madalena;Y;1;0
+1614066;3M_Aliados_Padrao da Legua;N;0;0
+1612806;401_Campo 24 de Agosto_S.Roque;N;0;0
+1614067;3M_Padrao da Legua_Aliados;N;0;0
+1612807;401_S.Roque_Campo 24 de Agosto;N;0;0
+1612808;UON_C.24 Agosto;N;1;0
+1611261;200_Praca da Galiza_Mercado Foz;N;0;0
+1611263;200_Mercado Foz_Praca da Galiza;N;0;0
+1611584;104_Bom Sucesso_Infante;N;0;0
+1612809;C.24 Agosto_UON;N;1;0
+1612887;Vale Formoso_UOF;N;1;0
+1613126;UOF_Seixo;N;1;0
+1613127;Seixo_UOF;N;1;0
+1613186;207_Campanha_Mercado da Foz;N;0;0
+1613187;207_Praca D.João I_Mercado da  Foz;N;0;0
+1613188;207_Mercado da Foz_Campanha;N;0;0
+1613190;UOF_Praca D.Joao I;N;1;0
+1611021;700_Bolhao Mercado_Valongo;N;0;0
+1611023;700_Valongo_Bolhao Mercado;N;0;0
+1611025;700_S.Roque_Valongo;N;0;0
+1613949;601_Aeroporto_Boavista (Direto);N;0;0
+1611029;700_Valongo_S.Roque;N;0;0
+1611381;904_Gaia Camara_Coimbroes Sul;N;0;0
+1613967;901_Valadares_Infante;N;0;0
+1613986;104_Bom Sucesso_Alfandega;N;0;0
+1614006;602_Cordoaria_Araujo;N;0;0
+1613626;303/Boavista_Campo 24 de Agosto;N;0;0
+1613627;303/_Campo 24 Agosto_Campo 24 Agosto;N;0;0
+1611544;901_Cabine_Valadares;N;0;0
+1614007;602_Araujo_Cordoaria;N;0;0
+1613086;3M_Aliados_Araujo;N;0;0
+1613087;3M_Araujo_Aliados;N;0;0
+1613088;1M_Aliados_Mercado da Foz;N;0;0
+1613089;1M_Mercado da Foz_Aliados;N;0;0
+1613090;7M_Aliados_Seixo;N;0;0
+1613091;7M_Seixo_Aliados;N;0;0
+1613092;8M_Aliados_Rio Tinto;N;0;0
+1613093;8M_Rio Tinto_Aliados;N;0;0
+1613094;10M_Santo Ovidio_Vila d'Este;N;0;0
+1613095;10M_Vila d'Este_Santo Ovidio;N;0;0
+1613096;11M_Aliados_Coimbroes;N;0;0
+1613097;11M_Coimbroes_Aliados;N;0;0
+1613098;UOF_Coimbroes Sul;N;1;0
+1613099;Coimbroes Sul_UOF;N;1;0
+1613146;500_Praca da Liberdade_Castelo do Queijo;N;0;0
+1613147;500_Castelo do Queijo_Praca da Liberdade;N;0;0
+804969;Valongo_UON;N;1;0
+1610701;Alfandega_UON;Y;1;0
+1612084;201_Aliados_Viso;N;0;0
+1612085;201_Viso_Aliados;N;0;0
+1612368;48_Trindade_Cordoaria;N;0;0
+1612369;48_Cordoaria_Trindade;N;0;0
+1612466;UON_Fanzeres;N;1;0
+1612467;Fanzeres_UON;N;1;0
+1612468;UON_Levada;N;1;0
+1612469;Levada_UON;N;1;0
+1612486;201_Cordoaria_Viso;N;0;0
+1612487;201_Viso_Cordoaria;N;0;0
+1612646;904_Batalha_Coimbroes Sul;N;0;0
+1612647;904_Coimbroes Sul_Batalha;N;0;0
+1612906;400_Trindade_Azevedo;N;0;0
+1612907;400_Azevedo_Trindade;N;0;0
+1613689;204_Foz_Boavista;N;0;0
+1614026;69_Boavista_Serralves;N;0;0
+1614027;69_Serralves_Boavista;N;0;0
+1614046;905_Gaia Camara-M.Virgem;N;0;0
+1613100;UOF_Araujo;N;1;0
+1613246;66_Trindade_Queimodromo;N;0;0
+1613247;66_Queimodromo_Trindade;N;0;0
+1613248;67_Hospital de S.Joao_Queimodromo;N;0;0
+1613266;69_Aliados_Serralves;N;0;0
+1613267;69_Serralves_Aliados;N;2;2
+1609941;907_Gaiashoping_Vila D'Este;N;0;0
+1609981;907_Vila D'Este_Gaiashopping;N;0;0
+1610823;Mercado da Foz_UOF;N;1;0
+1610021;UON_Campo;Y;1;0
+1610023;Campo_UON;Y;1;0
+1610025;UON_Valongo;Y;1;0
+1614047;905_M.Virgem-Gaia Camara;N;0;0
+1610821;UOF_Mercado da Foz;N;1;0
+1614048;400_S.Lazaro_P.Nascente;N;0;0
+1611604;Infante_UON;Y;1;0
+1612846;Campo 24 Agosto_Valpi;N;1;0
+1612847;Valpi_Campo 24 Agosto;N;1;0
+1611904;UOF_Praca Cidade Salvador;N;1;0
+1613686;204_Casa da Musica_Foz;N;0;0
+1613687;204_Hospital de S.Joao_Foz;N;0;0
+1613688;204_Foz_Hospital de S.Joao;N;0;0
+1613706;601_Cordoaria_Marshopping;N;0;0
+1613707;601_Marshopping_Cordoaria;N;0;0
+1613766;600_Aliados_Ponte da Pedra;N;0;0
+1613767;600_Ponte da Pedra_Aliados;N;0;0
+1613786;4M_Aliados_Ponte de Pedra;N;0;0
+1613787;4M_Ponte de Pedra_Aliados;N;0;0
+1613069;UOF_Marshopping;N;1;0
+1613070;Marshopping_UOF;N;1;0
+1613788;Ponte de Pedra_UOF;N;1;0
+1614049;400_P.Nascente_S.Lazaro;N;0;0
+1614068;Padrao da Legua_UOF;N;1;0
+1614147;809_Infante_Serralves;N;0;0
+1614148;809_Serralves_Infante;N;0;0
+1614166;806_Marques_Cabanas;N;0;0
+1614167;806_Cabanas_Marques;N;0;0
+1614168;UON_Cabanas;N;1;0
+1614169;Cabanas_UON;N;1;0
+1614228;507_Rotunda AEP_Marshopping;N;0;0
+1614229;507_Cordoaria_Marshopping;N;0;0
+1614230;507_Marshopping_Cordoaria;N;0;0
+1614086;UOF_Ponte da Pedra;N;1;0
+1614087;907_Sto Ovidio_Vila D'Este;N;0;0
+1613328;905__Aliados_M.Virgem;N;0;0
+1613329;905__M.Virgem_Aliados;N;0;0
+1613346;601_Cordoaria_Aeroporto;N;0;0
+1613347;601_Aeroporto_Cordoaria;N;0;0
+1613348;601_Boavista_Aeroporto;N;0;0
+1613349;507_Cordoaria_Leca;N;0;0
+1613350;507_Leca_Cordoaria;N;0;0
+1613351;507_Rotunda AEP_Leca;N;0;0
+1613746;11M_H.S.Joao_Aliados;N;0;0
+1613747;11M_Aliados_H.S.Joao;N;0;0
+1613368;Freixieiro_UOF;N;1;0
+1613386;UON_P.Nascente;N;1;0
+1613387;P.Nascente_UON;N;1;0
+1613526;601_Rotunda AEP_Aeroporto;N;0;0
+1613426;400_Aliados_P.Nascente;N;0;0
+1613427;400_P.Nascente_Aliados;N;0;0
+1613486;601_Aeroporto_Boavista;N;0;0
+1613527;601_Aeroporto_Rotunda AEP;N;0;0
+1613546;508_Bom Sucesso_Cabo do Mundo;N;0;0
+1613547;508_Cabo do Mundo_Bom Sucesso;N;0;0
+1613548;508_Bom Sucesso_Freixieiro;N;0;0
+1613549;508_Freixieiro_Bom Sucesso;N;0;0
+1613806;602_Monte dos Burgos_Aeroporto;N;0;0
+1613807;602_Cordoaria_Aeroporto;N;0;0
+1613808;602_Aeroporto_Cordoaria;N;0;0
+1613809;602_Cordoaria_Ponte de Moreira;N;0;0
+1613810;602_Ponte de Moreira_Cordoaria;N;0;0
+1613811;602_Cordoaria_Guardeiras;N;0;0
+1613812;602_Guardeiras_Cordoaria;N;0;0
+1613826;301_H.S.Joao_H.S.Joao;N;0;0
+1613827;301_H.S.Joao_Carvalhido;N;0;0
+1613846;303_Campo 24 Agosto_S.Bento;N;0;0
+1613866;S.Bento_UOF;N;1;0
+1614126;809_Maia Forum_Maia Forum;N;0;0
+1614146;809/_Maia Forum_Maia Forum;N;0;0
+1614128;Maia Forum_UOF;N;1;0
+1614186;803_Hospital de S.Joao_Rio Tinto;N;0;0
+1614187;803_Bom Sucesso_Rio Tinto;N;0;0
+1614188;803_Rio Tinto_Bom Sucesso;N;0;0
+1615070;907_Bom Sucesso_Coimboes;N;0;0
+1614873;903_Casa da Musica_Vilar do Paraiso;N;0;0
+1614874;903_Vilar do Paraiso_Casa da Musica;N;0;0
+1614209;UOF_Vilar do Paraiso;N;1;0
+1614210;Vilar do Paraiso_UOF;N;1;0
+1615290;Amial_UOF;N;1;1
+1615432;502_Castelo do Queijo_Bolhao;N;0;0
+1614268;UOF_Francelos;N;1;0
+1614269;Francelos_UOF;N;1;0
+1614286;107_Estadio Dragão_Areias;N;0;0
+1614287;107_Areias_Estadio Dragão;N;0;0
+1614288;107_Estadio Dragão_Freixo;N;0;0
+1614289;107_Freixo_Estadio Dragão;N;0;0
+1614290;Freixo_UON;N;1;0
+1614306;603_Marques_Maia;N;2;0
+1614307;603_Maia_Marques;N;2;0
+1614308;603_H.S.Joao_Maia;N;2;0
+1614328;UOF_Vermoim;N;1;0
+1614326;605_Gueifães_Vermoim;N;0;0
+1614327;605_Vermoim_Gueifães;N;0;0
+1614329;Vermoim_UOF;N;1;0
+1614330;UOF_Gueifães;N;1;0
+1614331;Gueifães_UOF;N;1;0
+1614746;UON_Candal;Y;1;0
+1614747;Candal_UON;Y;1;0
+1614366;UOF_Freixo;N;1;0
+1614367;UOF_Parque Nascente;N;1;0
+1614368;Parque Nascente_UOF;N;1;0
+1614369;UOF_Campo;N;1;0
+1614386;404_Bolhão Mercado_Estadio do Dragão;N;0;0
+1614387;404_Estadio do Dragão_Bolhão Mercado;N;0;0
+1614406;8M_Aliados_Chão Verde;N;0;0
+1614407;8M_Chão Verde_Aliados;N;0;0
+1614408;Chão Verde_UOF;N;1;0
+1614426;8M_Aliados_Rio Tinto Igreja;N;0;0
+1614427;8M_Rio Tinto Igreja_Aliados;N;0;0
+1614446;800_Est.Dragão_Gondomar;N;0;0
+1614447;800_Gondomar_Est.Dragão;N;0;0
+1614448;801_Est.Dragão_S.P.Cova;N;0;0
+1614449;801_S.Pedro Cova_Est.Dragão;N;0;0
+1614466;800_Bolhão Mercado-Gondomar;N;0;0
+1614467;800_Gondomar-Bolhão Mercado;N;0;0
+1614748;UON_Cabine;Y;1;0
+1614749;Cabine_UON;Y;1;0
+1614470;801_Cordoaria-S.PedroCova;N;0;0
+1614471;801_S.Pedro Cova-Cordoaria;N;0;0
+1614506;506_Matosinhos_Hospital de S.Joao;N;0;0
+1614875;903_Candal_Vilar do Paraiso;N;0;0
+1615071;907_Coimbroes_Bom sucesso;N;0;0
+1615150;108_Matosinhos Mercado_C.Queijo;N;0;0
+1614526;901_Trindade_Valadares;N;0;0
+1614527;901_Valadares_Trindade;N;0;0
+1614528;901_Candal_Valadares;N;0;0
+1614529;906_Trindade_Madalena;N;0;0
+1614530;906_Madalena_Trindade;N;0;0
+1615133;MATM_PCSV;N;0;0
+1615134;108_Pr.CidadeSalvador_Matosinhos Mercado;N;0;0
+1614548;803/_H.S.Joao_Rio Tinto;N;0;0
+1614549;803/_Bom Sucesso_Rio Tinto;N;0;0
+1614550;803/_Rio Tinto_Bom Sucesso;N;0;0
+1614566;1M_Aliados_Matosinhos Praia;N;0;0
+1614567;1M_Matosinhos Praia_Aliados;N;0;0
+1614586;104_Bom Sucesso_Massarelos;N;0;0
+1614606;202_Aliados_Passeio Alegre;N;0;0
+1614607;202_Passeio Alegre_Aliados;N;0;0
+1614608;501_Aliados_Matosinhos;N;0;0
+1614609;501_Matosinhos_Aliados;N;0;0
+1614626;202_Aliados_Ramalde;N;0;0
+1614627;202_Ramalde_Aliados;N;0;0
+1614750;UON_Valadares;Y;1;0
+1614751;Valadares_UON;Y;1;0
+1614799;604/_H.S.Joao_Aeroporto;N;0;0
+1614800;604/_Aeroporto_H.S.Joao;N;0;0
+1615135;108_Matosinhos Mercado_Pr.CidadeSalvador;N;0;0
+1615151;108_C.Queijo_Matosinhos Mercado;N;0;0
+1615152;108_C.Queijo_C.Queijo;N;0;0
+1615153;CQ_CQ;N;0;0
+1615154;Aliados_Bolhão;N;0;0
+1615450;200_Praça Cidade do Salvador_Cordoaria;N;0;0
+1615231;910_Cordoaria_S.Bento;N;0;0
+1615232;910_S.Bento_Cordoaria;N;0;0
+1615451;200_Cordoaria__Praça Cidade do Salvador;N;0;0
+1615452;200_Cordoaria_Praça Cidade do Salvador;N;0;0
+1615453;10M_Gaia-Camara_Vila d'Este;N;0;0
+1615454;10M_Vila d'Este_Gaia-Camara;N;0;0
+1615553;68_Aliados_Queimodromo;N;0;0
+1614986;200_Bolhão_Praça Cidade do Salvador;N;0;0
+1614987;200_Praça Cidade do Salvador_Bolhão;N;0;0
+1615050;703_Cordoaria_Ermesinde;N;0;0
+1615051;703_Ermesinde_Cordoaria;N;0;0
+1615110;500_Castelo do Queijo_Matosinhos;N;0;0
+1615111;500_Matosinhos_Castelo do Queijo;N;0;0
+1615470;UON_Matosinhos-Praia;N;1;1
+1615471;Matosinhos-Praia_UON;N;1;1
+1615472;UON_B.Francos;N;1;1
+1614792;UON_Maia-Zoo;Y;1;0
+1614793;Maia-Zoo_UON;Y;1;0
+1614794;900_Cordoaria_Sto.Ovideo;N;0;0
+1614795;900_Sto.Ovideo_Cordoaria;N;0;0
+1614826;UON_Amial;Y;1;0
+1614827;Amial_UON;Y;1;0
+1614828;UON_Maia;Y;1;0
+1614829;Maia_UON;Y;1;0
+1615130;108_Pr Cidade Salvador_PrCidade Salvador;N;0;0
+1615131;PCSV_PCSV;N;0;0
+1615310;300_Carvalhido_C24Agosto;N;0;0
+1615350;150_Boavista_Pr.Imperio;N;0;0
+1612826;Apagar_2;N;0;0
+1612827;Apagar_5;N;0;0
+1612828;Apagar_3;N;0;0
+1612829;Apagar_1;N;0;0
+1613106;Rio Tinto (Igreja)_UOF;N;1;0
+179713;UOF_Esposade;Y;1;0
+1611784;500_Infante_Matosinhos;N;0;0
+1611785;500_Matosinhos_Infante;N;0;0
+173668;99_Praca_Cordoaria;N;0;0
+173669;99_Cordoaria_Praca;N;0;0
+176190;UON_Travagem;Y;1;0
+176191;Travagem_UON;Y;1;0
+177990;UOF_Marques;Y;1;0
+177991;Marques_UOF;Y;1;0
+178010;604_Maia_Hospital de S.Joao;N;0;0
+178011;UOF_Maia Forum;Y;1;0
+1613566;508_Bom Sucesso_Esposade;N;0;0
+1613567;508_Esposade_Bom Sucesso;N;0;0
+1613646;601_Boavista_Marshopping;N;0;0
+1613647;601_Marshopping_Boavista;N;0;0
+174776;601_Boavista_Cordoaria;N;0;0
+174777;601_Cordoaria_Boavista;N;0;0
+174790;UOF_MaiaZoo;Y;1;0
+174791;MaiaZoo_UOF;Y;1;0
+1612026;501_Bairro de Francos_Aliados;N;0;0
+179290;67_Areosa_Queimodromo;N;0;0
+178291;67_Queimodromo_Hospital de S.Joao;N;0;0
+174416;UOF_Bairro de Francos;Y;1;0
+174417;Bairro de Francos_UOF;Y;1;0
+174418;UOF_Aldoar;Y;1;0
+174419;Aldoar_UOF;Y;1;0
+175330;703_Cordoaria_Sonhos;N;0;0
+175331;703_Sonhos_Cordoaria;N;0;0
+175950;UON_S.Pedro da Cova;Y;1;0
+175951;UON_Gondomar;Y;1;0
+176092;501_Boavista_Matosinhos;N;0;0
+176093;501_Matosinhos_Boavista;N;0;0
+176210;UON_Carvalha;Y;1;0
+176211;Carvalha_UON;Y;1;0
+177191;UOF_Carvalhido;Y;1;0
+178292;UOF_Queimodromo;Y;1;0
+178293;Queimodromo_UOF;Y;1;0
+1614106;UOF_P.Alegre;N;1;0
+173608;UOF_Bolhao;N;1;0
+176410;UON_Matosinhos Mercado;Y;1;0
+176411;Matosinhos Mercado_UON;Y;1;0
+177890;206_Campanha_Viso;N;0;0
+177891;206_Campanha_Bairro Santo Eugenio;N;0;0
+177270;UON_Estadio do Dragao;Y;1;0
+177271;Estadio do Dragao_UON;Y;1;0
+175210;Codiceira_UOF;Y;1;0
+177970;UOF_Maia;Y;1;0
+177971;Maia_UOF;Y;1;0
+177972;UOF_Vale Formoso;Y;1;0
+179591;301_Santa Luzia_Hospital de S.Joao;N;0;0
+174070;502_Bolhao_Casa da Musica;N;0;0
+179170;35_Estadio do Dragao_Matosinhos;N;0;0
+174390;603_Hospital de S.Joao_MaiaZoo;N;0;0
+179171;35_Matosinhos_Estadio do Dragao;N;0;0
+179172;UOF_Matosinhos;Y;1;0
+179173;Matosinhos_UOF;Y;1;0
+177470;Esposade_UOF;Y;1;0
+179174;37_Santo Ovidio_Hospital de S.Joao;N;0;0
+179175;37_Hospital de S.Joao_Santo Ovidio;N;0;0
+179176;36_Aeroporto_Norteshopping;N;0;0
+179177;36_Norteshopping_Aeroporto;N;0;0
+177912;603_Marques_MaiaZoo;N;0;0
+179178;UON_Norteshopping;Y;1;0
+179179;Norteshopping_UON;Y;1;0
+1613668;39_Trindade_Estadio do Dragao;N;0;0
+1613728;Cabine_UOF;N;1;0
+178590;507_Boavista_Cordoaria;N;0;0
+178591;507_Cordoaria_Boavista;N;0;0
+173648;99_UOF_Praca;Y;1;1
+173649;99_UON_Praca;Y;1;1
+177550;UOF_Trindade;Y;1;0
+177551;Trindade_UOF;Y;1;0
+179910;303_Campo 24 de Agosto_Boavista;N;0;0
+178890;UOF_Ponte de Moreira;Y;1;0
+178891;Ponte de Moreira_UOF;Y;1;0
+1612506;200_Cordoaria_Mercado Foz;N;0;0
+1612507;200_Mercado Foz_Cordoaria;N;0;0
+179915;35_Casa da Musica_ Senhora da Hora;N;0;0
+179916;35_Senhora da Hora_C.asa da Musica;N;0;0
+1611301;UON_S.Lazaro;Y;1;0
+179919;302_Campo 24 de Agosto_Batalha;N;0;0
+179920;303_Batalha_Campo 24 de Agosto;N;0;0
+179921;Campo 24Agosto_UOF;N;1;0
+179922;801_Cordoaria_S.Pedro da Cova;N;0;0
+179923;801_S.Pedro da Cova_Cordoaria;N;0;0
+1611704;Bolhao_Ermesinde;Y;1;0
+179943;66_Aliados_Queimodro;N;0;0
+179944;66_Queimodro_Aliados;N;0;0
+179959;600_Aliados_Maia;N;0;0
+179960;600_Maia_Aliados;N;0;0
+179961;600_Aliados_Barca;N;0;0
+179962;600_Barca_Aliados;N;0;0
+179963;Aliados_UON;N;0;0
+179964;600_Vale Formoso_Aliados;N;0;0
+179965;904_Coimbroes_Gaia Camara;N;0;0
+179974;UOF_Campo 24Agosto;N;1;0
+180022;203_Casa da Musica_Castelo do Queijo;N;0;0
+180023;203_Castelo do Queijo_Casa da Musica;N;0;0
+180024;Serralves_UOF;N;1;0
+180025;UOF_Serralves;N;1;0
+400241;200_Bolhao_Mercado da Foz;N;0;0
+400243;200_Mercado da Foz_Bolhao;N;0;0
+400361;UOF_Maia Barca;N;1;0
+400681;UON_Francelos;N;1;0
+400683;Francelos_UON;N;1;0
+400721;Bolhao_Valpi;N;1;0
+400723;Valpi_Bolhao;N;1;0
+400761;208_Boavista_Aldoar;N;0;0
+400763;208_Aldoar_Boavista;N;0;0
+400845;UOF_Guardeiras;N;1;0
+400847;Guardeiras_UOF;N;1;0
+400931;907_Vila D'Este_Stº Ovidio;N;0;0
+400961;UON_Monte da Virgem;N;1;0
+400963;Monte da Virgem_UON;N;1;0
+401043;600_Maia Barca_Maia;N;0;0
+175730;803_Bom Sucesso_Venda Nova;N;0;0
+175731;803_Venda Nova_Bom Sucesso;N;0;0
+175732;803_Hospital de S.Joao_Venda Nova;N;0;0
+42898;UOF_Bom Sucesso;Y;1;0
+175770;805_Marques_RioTinto;N;0;0
+175771;805_RioTinto_Marques;N;0;0
+175773;805_Rio Tinto_Areosa;N;0;0
+1612246;Araujo_UOF;N;1;0
+1612366;89_Aliados_Stº Ovidio;N;0;0
+1612367;89_Stº Ovidio_Aliados;N;0;0
+1611766;Infante_UOF;Y;1;0
+175810;UON_RioTinto(estacao);Y;1;0
+175910;UON_Sonhos;Y;1;0
+176250;UOF_Gatoes;Y;1;0
+176251;Gatoes_UOF;Y;1;0
+1612866;904_Aliados_Coimbroes Sul;N;0;0
+1612867;904_Coimbroes Sul_Aliados;N;0;0
+179230;904_Batalha_Coimbroes;N;0;0
+1612868;905_Aliados_Monte da Virgem;N;0;0
+1612869;905_Monte da Virgem_Aliados;N;0;0
+177490;UOM_Carmo;Y;1;0
+177491;Carmo-UOM;Y;1;0
+179231;904_Coimbroes_Batalha;N;0;0
+1612886;600_Aliados_Vale Formoso;N;0;0
+1613226;UOF_Ponte Luiz I;N;1;0
+1613227;Ponte Luiz I_UOF;N;1;0
+178190;200_Praca da Galiza_Castelo do Queijo;N;0;0
+178191;200_Castelo do Queijo_Galiza;N;0;0
+151990;UON_Alto da Maia;Y;1;0
+152870;UON_Parada;N;1;0
+152873;UOF_Castelo do Queijo;N;1;0
+152874;Castelo do Queijo_UOF;N;1;0
+178212;305_Bolhao_Hospital de S.Joao;N;0;0
+178213;305_Hospital de S.Joao_Bolhao;N;0;0
+178710;Lidador_UOF;Y;1;0
+153051;Rotunda da AEP_UOF;Y;1;0
+153050;UOF_Rotunda da AEP;Y;1;0
+139103;UON_Castelo do Queijo;Y;1;0
+179050;Bolhao Mercado_UOF;Y;1;0
+179051;UOF_Bolhao Mercado;Y;1;0
+135733;UOM_Massarelos;N;1;0
+135734;Massarelos_UOM;N;1;0
+61775;UOF_Lidador;N;1;0
+140001;UOF_Cordoaria;N;1;0
+114861;Bom Sucesso_UOF;Y;1;0
+151608;UOF_Aeroporto;N;1;0
+151609;Aeroporto_UOF;N;1;0
+147270;Castelo do Queijo_UON;N;1;0
+155490;Monte dos Burgos_UOF;N;1;0
+156551;UON_S.Roque;N;1;0
+156552;S.Roque_UON;N;1;0
+175890;Gondomar_UON;Y;1;0
+179031;Maia Barca_UOF;Y;1;0
+176030;UON_Codiceira;Y;1;0
+179030;Bairro de Stº Eugenio_UON;Y;1;0
+179790;302_Aliados_Campo 24 de Agosto;N;0;0
+179791;302_Campo 24 de Agosto_Aliados;N;0;0
+179792;302_Campo 24 de Agosto-Boavista;N;0;0
+179793;302_Boavista_Campo 24 de Agosto;N;0;0
+179794;302_Campo 24 Agosto_Campo 24 Agosto;N;0;0
+179796;303_Praca_Campo 24 de Agosto;N;0;0
+179797;303_Campo 24 de Agosto_Praça;N;0;0
+179798;303_Campo 24 Agosto_Campo 24 Agosto;N;0;0
+169972;S.Roque_UOF;Y;1;0
+169768;UON_Campanha;Y;1;0
+169769;Campanha_UON;Y;1;0
+170489;Leca_UOF;Y;1;0
+171088;UON_Bolhao;Y;1;0
+171089;UON_Ermesinde;Y;1;0
+171090;Ermesinde_UON;Y;1;0
+171210;Cordoaria _UON;Y;1;0
+171211;UON_Cordoaria;Y;1;0
+171348;UON_Santo Ovidio;Y;1;0
+171449;Campanha_UOF;Y;1;0
+171648;Codiceira_UON;Y;1;0
+176010;UON_Coimbroes;Y;1;0
+176011;Coimbroes_UON;Y;1;0
+176550;UOF_Campanha;Y;1;0
+179110;UON_Bairro de Santo Eugenio;Y;1;0
+176970;UOF_Cabo do Mundo;Y;1;0
+176971;Cabo do Mundo_UOF;Y;1;0
+177032;UOF_Fonte da Moura;Y;1;0
+177033;Fonte da Moura_UOF;Y;1;0
+178810;Rio Tinto_UON;Y;1;0
+177130;UOF_Leca;Y;1;0
+177572;UOF_Estadio do Dragao;Y;1;0
+172168;94M_95M_Praca_Praca;N;0;0
+177573;Estadio do Dragao_UOF;Y;1;0
+172350;701_Bolhao_Codiceira;N;0;0
+172351;701_Codiceira_Bolhao;N;0;0
+172352;702_Bolhao_Travagem;N;0;0
+172353;702_Travagem_Bolhao;N;0;0
+172388;402_Bom Sucesso_S.Roque;N;0;0
+172389;402_S.Roque_Bom Sucesso;N;0;0
+172459;706_Hospital de S.Joao_Ermesinde;N;0;0
+172460;706_Ermesinde_Hospital de S.Joao;N;0;0
+172492;804_Hospital de S.Joao_S.Pedro da Cova;N;0;0
+172493;804_S.Pedro da Cova_Hospital de S.Joao;N;0;0
+172497;806_Marques_Carvalha;N;0;0
+172498;806_Carvalha_Marques;N;0;0
+172499;901_Trindade_Valadares;N;0;0
+172500;Apagar;N;0;0
+172501;902_Casa da Musica_Lavadores;N;0;0
+172502;902_Lavadores_Casa da Musica;N;0;0
+172515;UON_Azevedo;Y;1;0
+172516;Azevedo_UON;Y;1;0
+172554;UOF_Santa Luzia;Y;1;0
+172555;Santa Luzia_UOF;Y;1;0
+172556;UOF_S.Roque;Y;1;0
+172557;UOF_Matosinhos Mercado;Y;1;0
+172558;Matosinhos Mercado_UOF;Y;1;0
+172559;UOF_Matosinhos Praia;Y;1;0
+172560;Matosinhos Praia_UOF;Y;1;0
+172561;502_Boavista_Bolhao;N;0;0
+172566;UOF_Amial;Y;1;0
+1611341;1M_Aliados_Castelo do Queijo;N;0;0
+1613906;507_Boavista_Leca;N;0;0
+1611343;1M_Castelo do Queijo_Aliados;N;0;0
+1612346;88_Praca_Santo Ovidio;N;0;0
+172575;UOF_Casa da Musica;Y;1;0
+172576;Casa da Musica_UOF;Y;1;0
+178370;S.Mamede_UOF;Y;1;0
+1612347;88_Santo Ovidio_Praca;N;0;0
+172583;701_Alto da Maia_Codiceira;N;0;0
+1612606;905_Batalha_Monte da Virgem;N;0;0
+172585;702_Alto da Maia_Travagem;N;0;0
+1612607;905_Monte da Virgem_Batalha;N;0;0
+172587;704_Bom Sucesso_Codiceira;N;0;0
+172588;704_Codiceira_Bom Sucesso;N;0;0
+172589;704_Hospital de S.Joao_Codiceira;N;0;0
+172590;704_Codiceira_Carvalhido;N;0;0
+1612626;UON_Batalha;N;1;0
+172592;800_S.Roque_Gondomar;N;0;0
+1612627;Batalha_UON;N;1;0
+172594;801_S.Roque_S.Pedro da Cova;N;0;0
+1613288;Praca Cidade Salvador_UOF;N;1;0
+175170;400_Freixo_Azevedo;N;0;0
+175171;UON_Freixo;Y;1;0
+1612045;400_Aliados_Azevedo;N;0;0
+176630;S.Lazaro_UON;Y;1;0
+1612046;400_Azevedo_Aliados;N;0;0
+172608;UON_Trindade;Y;1;0
+172609;Trindade_UON;Y;1;0
+172614;902_Candal_Lavadores;N;0;0
+172615;902_Lavadores_Candal;N;0;0
+176650;800_Bolhao Mercado_Gondomar;N;0;0
+176651;800_Gondomar_Bolhao Mercado;N;0;0
+176990;UOF_Codiceira;Y;1;0
+172678;206_Viso_Campanha;N;0;0
+172692;503_Casa da Musica_Gatoes;N;0;0
+172693;503_Gatoes_Casa da Musica;N;0;0
+172694;503_Viso_Gatoes;N;0;0
+172698;504_Casa da Musica_Norteshopping;N;0;0
+172699;504_Norteshopping_Casa da Musica;N;0;0
+172700;UOF_Norteshopping;Y;1;0
+172701;Norteshopping_UOF;Y;1;0
+172712;Santo Ovidio_UON;Y;1;0
+172794;UON_Bolhao Mercado;Y;1;0
+172795;Bolhao Mercado_UON;Y;1;0
+172868;Sonhos_UON;Y;1;0
+172869;S.Pedro da Cova_UON;Y;1;0
+172971;502_Matosinhos_Bolhao;N;0;0
+172988;1_Massarelos_Passeio Alegre;N;0;0
+172989;1_Passeio Alegre_Massarelos;N;0;0
+173008;18_Massarelos_Carmo;N;0;0
+173009;18_Carmo_Massarelos;N;0;0
+173028;1_Massarelos_Infante;N;0;0
+173029;1_Infante_Massarelos;N;0;0
+173048;704_Codiceira_Hospital de S.Joao;N;0;0
+173388;1_ER.Massarelos_Massarelos;N;0;0
+9;Viso_UON;N;1;0
+10;UON_Viso;N;1;0
+11;UON_Praca;Y;1;0
+12;Praca_UON;N;1;0
+179190;UOF_Santo Ovidio;Y;1;0
+176272;Galiza_UON;Y;1;0
+176273;201_Boavista_Viso;N;0;0
+176274;201_Viso_Boavista;N;0;0
+179191;Santo Ovidio_UOF;Y;1;0
+179211;UON_Aeroporto;Y;1;0
+176332;UOF_Lavadores;Y;1;0
+2257;UOF_Boavista;N;1;0
+2258;Boavista_UOF;N;1;0
+2266;Praca_UOF;N;1;0
+2267;UOF_Praca;N;1;0
+21119;Carvalhido_UOF;N;1;0
+176333;Lavadores_UOF;Y;1;0
+2301;Cordoaria_UOF;N;1;0
+176613;604_Hospital de S.Joao_Aeroporto;N;0;0
+176614;604_Aeroporto_Hospital de S.Joao;N;0;0
+179653;300_Hospital de S.Joao_Bairro do Amial;N;0;0
+179670;300_Hospital de S.Joao_Aliados;N;0;0
+176832;600_Aliados_S.Mamede;N;0;0
+176833;600_S.Mamede_Aliados;N;0;0
+4782;Aliados_UOF;N;1;0
+4784;UOF_Aliados;N;1;0
+4786;UOF_Hospital de S.Joao;N;1;0
+4787;UOF_Monte dos Burgos;N;1;0
+4789;Hospital de S.Joao_UOF;N;1;0
+177230;203_Marques_Castelo do Queijo;N;0;0
+177231;203_Castelo do Queijo_Marques;N;0;0
+28750;61_Valongo_Matosinhos;N;0;0
+28747;Valpi_Valongo;Y;1;0
+28748;Valongo_Valpi;Y;1;0
+28749;61_Matosinhos_Valongo;N;0;0
+137464;Areosa_UON;N;1;0
+7401;UON_Hospital de S.Joao;N;1;0
+401921;104_Cordoaria_Bom Sucesso;N;0;0
+401923;104_Bom Sucesso_Cordoaria;N;0;0
+401925;104_Infante_Bom Sucesso;N;0;0
+401961;104_Alfandega_Bom Sucesso;N;0;0
+402241;Madalena_UOF;Y;1;0
+401125;905_Bolhao_Monte da Virgem;N;0;0
+401127;905_Monte da Virgem_Bolhao;N;0;0
+401247;Ermesinde_UOF;N;1;0
+1615112;500_Praça Liberdade_PR.Cidade Salvador;N;0;0
+402121;Travagem_UOF;Y;1;0
+401281;11M_Hospital de S.Joao_Coimbroes;N;0;0
+1615113;500_PR.Cidade Salvador_Praça Liberdade;N;0;0
+401603;8M_Aliados_S.Pedro da Cova;N;0;0
+401605;8M_S.Pedro da Cova_Aliados;N;0;0
+401365;9M_Norteshopping_Gondomar;N;0;0
+401367;9M_Gondomar_Norteshopping;N;0;0
+401369;S.Pedro da Cova_UOF;N;1;0
+401371;Gondomar_UOF;N;1;0
+401441;7M_Aliados_Valongo;N;0;0
+401443;7M_Valongo_Aliados;N;0;0
+401445;Valongo_UOF;N;1;0
+401681;22_Carmo_Carmo;N;0;0
+7402;Hospital de S.Joao_UON;N;1;0
+1612206;202_Passeio Alegre_Fonte da Moura;N;0;0
+1612386;79_Aliados_Areosa;N;0;0
+1612387;79_Areosa_Aliados;N;0;0
+1612004;208_Aliados_Aldoar;N;0;0
+1612005;208_Aldoar_Aliados;N;0;0
+1612006;208_Bairro de Francos_Aliados;N;0;0
+1612064;904_Bolhao_Coimbroes;N;0;0
+1615270;901_Coimbrões_Valadares;N;0;0
+10935;UON_Marques;N;1;0
+10936;Marques_UON;N;1;0
+32715;94_Bolhao Mercado_Campo;N;0;0
+32716;94_Campo_Bolhao Mercado;N;0;0
+32717;94_Bolhao Mercado_Valongo;N;0;0
+32718;94_Valongo_Bolhao Mercado;N;0;0
+32725;Valpi_Campo;Y;1;0
+32726;Campo_Valpi;Y;1;0
+141806;Bolhao_UON;N;1;0
+1612065;904_Coimbroes Sul_Bolhao;N;0;0
+1612406;68_Queimodromo_Aliados;N;0;0
+1612546;UOF_Infante;N;1;0
+1613907;507_Leca_Boavista;N;0;0
+33499;Matosinhos_UON;N;1;0
+33501;UON_Matosinhos;Y;1;0
+33890;Viso_UOF;N;1;0
+34711;UOF_Viso;N;1;0
+34817;Bom Sucesso_UON;Y;1;0
+34818;UON_Bom Sucesso;Y;1;0
+34819;UON_Aliados;Y;1;0
+1613926;207_Campanha_Batalha;N;0;0
+178391;200_Castelo do Queijo_Cordoaria;N;0;0
+1613927;207_Batalha_Campanha;N;0;0
+177953;UOF_S.Mamede;Y;1;0
+173508;1_Massarelos_UOM;Y;1;0
+173510;400_S.Lazaro_Azevedo;N;0;0
+173511;400_Azevedo_S.Lazaro;N;0;0
+1613928;207_Praca da Galiza_Mercado da Foz;N;0;0
+178390;200_Cordoaria_Castelo do Queijo;N;0;0
+175111;UON_Alfandega;Y;1;0
+175115;106_Valadares_Francelos;N;0;0
+175116;106_Francelos_Valadares;N;0;0
+175117;UON_Valadares Estacao;Y;1;0
+175118;Valadares Estacao_UON;Y;1;0
+175120;UON_Infante;Y;1;0
+179770;907_Bom Sucesso_Vila D'Este;N;0;0
+178433;701_Ermesinde_Bolhao;N;0;0
+178490;401_Bolhao Mercado_S.Roque;N;0;0
+175350;1_Infante_Passeio Alegre;N;0;0
+175351;1_Passeio Alegre_Infante;N;0;0
+178491;401_S.Roque_Bolhao Mercado;N;0;0
+179771;907_Vila D'Este_Bom Sucesso;N;0;0
+179772;UOF_Vila d'Este;Y;1;0
+179773;Vila d'Este_UOF;Y;1;0
+173528;69_Casa da Musica_Serralves;N;0;0
+173529;69_Serralves_Casa da Musica;N;0;0
+173548;Bolhao_UOF;Y;1;0
+175430;12M_Aliados_Santo Ovidio;N;0;0
+175431;12M_Santo Ovidio_Aliados;N;0;0
+174050;502_Casa da Musica_Matosinhos;N;0;0
+174051;502_Bolhao_Matosinhos;N;0;0
+174170;200_Bolhao_Castelo do Queijo;N;0;0
+174171;200_Castelo do Queijo_Bolhao;N;0;0
+174872;UOF_Candal;Y;1;0
+174873;Candal_UOF;Y;1;0
+176133;Carvalhosa_UOF;Y;1;0
+176492;UON_Alto da Serra;Y;1;0
+179690;Bairro do Amial_UOF;Y;1;0
+175511;206_Bairro Santo Eugenio_Campanha;N;0;0
+176493;Alto da Serra_UON;Y;1;0
+177850;Venda Nova_UOF;Y;1;0
+176810;UOF_Venda Nova;Y;1;0
+176910;801_Bolhao_S.Pedro da Cova;N;0;0
+176911;801_S.Pedro da Cova_Bolhao;N;0;0
+178830;506_Hospital de S.Joao_Matosinhos;N;0;0
+178350;603_MaiaZoo_Marques;N;0;0
+175830;Aeroporto_UON;Y;1;0
+179154;UON_Areias;Y;1;0
+176692;701_Bolhao_Ermesinde;N;0;0
+179155;Areias_UON;Y;1;0
+174213;UON_Mercado da Foz;Y;1;0
+174212;Mercado da Foz_UON;Y;1;0
+174250;305_Cordoaria_Hospital de S.Joao;N;0;0
+174251;305_Hospital de S.Joao_Cordoaria;N;0;0
+174630;Foz_UOF;Y;1;0
+174631;UOF_Foz;Y;1;0
+179410;Areosa_UOF;Y;1;0
+1613506;107_Corujeira_Areias;N;0;0
+1613507;107_Areias_Corujeira;N;0;0
+1613508;UON_Corujeira;N;1;0
+1613509;Corujeira_UON;N;1;0
+175570;707_Hospital de S.Joao_Ermesinde;N;0;0
+175571;707_Ermesinde_Hospital de S.Joao;N;0;0
+177414;600_Amial_Maia;N;0;0
+177415;600_Maia_Amial;N;0;0
+177416;600_Amial_Maia Barca;N;0;0
+177417;600_Maia Barca_Amial;N;0;0
+1612727;Praca da Galiza_UOF;N;1;0
+1612786;809_Infante_Infante;N;0;0
+1613306;100-Batalha_Aeroporto;N;0;0
+1612326;505_Hospital de S.João_Matosinhos;N;0;0
+1612327;505_Matosinhos_Hospital de S.João;N;0;0
+1613307;100_Aeroporto_Batalha;N;0;0
+1613308;UOF_Batalha;N;0;0
+1610981;209_Prelada_Prelada;N;0;0
+1610901;UOF_Pasteleira;Y;1;0
+1610903;Pasteleira_UOF;Y;1;0
+1610905;UOF_Prelada;Y;1;0
+1610907;Prelada_UOF;Y;1;0
+1613309;Batalha_UOF;N;0;0
+1610943;209_Prelada_Pasteleira;N;0;0
+1610261;UOF_Ermesinde;N;1;0
+1610941;209_Pasteleira_Prelada;N;0;0
+1613606;P.Alegre_UOF;N;1;0
+1613006;42_Casa da Musica_Exponor;N;0;0
+1613007;42_Exponor_Casa da Musica;N;0;0
+1613008;UOF_Exponor;N;1;0
+1613009;Exponor_UOF;N;1;0
+1612148;202_Ramalde_Passeio Alegre;N;0;0
+1611864;UOF_Cabine;N;1;0
+1612166;UOF_Ramalde;N;1;0
+1611061;700_Bolhao Mercado_Campo;N;0;0
+1615312;301_C24Agosto_Carvalhido;N;0;0
+1615392;49_Trindade_Cordoaria;N;0;0
+1615352;151_Boavista_Rot.Anemona;N;0;0
+1615393;49_Cordoaria_Trindade;N;0;0
+1615354;150_Pr.Imperio_Boavista;N;0;0
+1615510;403_Casa da Musica_Infante;N;0;0
+1615356;151_Rot.Anemona_Boavista;N;0;0
+1615511;403_Infante_Casa da Musica;N;0;0
+1614766;UON_PR.D.Joao I;Y;1;0
+1615006;203_Marques_Pr Cidade Salvador;N;0;0
+1614786;502/_Bolhao_Matosinhos;N;0;0
+1614787;502/_Matosinhos_Bolhao;N;0;0
+1614788;502/_Bolhao_Casa da Musica;N;0;0
+1614789;502/_Boavista_Bolhao;N;0;0
+1614790;503_Bom Sucesso_Gatoes;N;0;0
+1614791;503_Gatoes_Bom Sucesso;N;0;0
+1614796;UOF_Areias;Y;1;0
+1614797;Areias_UOF;N;0;0
+1614798;Freixo_UOF;Y;1;0
+1614846;600_Aliados_Amial;N;0;0
+1614847;600_Amial_Aliados;N;0;0
+1614848;UON_Vale Formoso;Y;1;0
+1614849;Vale Formoso_UON;Y;1;0
+1615007;203_Pr Cidade Salvador_Marques;N;0;0
+1615008;UON_Pr Cidade Salvador;Y;1;0
+1615009;Pr Cidade Salvador_UON;Y;1;0
+1615530;UON_Araujo;N;1;1
+1615531;Araujo_UON;N;1;1
+1614666;38_Parque Oriental_Parque Oriental;N;0;0
+1614667;38_S.Roque_Estadio Dragão;N;0;0
+1615370;300_Sta.Luzia_C.24 Agosto;N;0;0
+1614669;38_S.Roque_Parque Oriental;N;0;0
+1614670;Parque Oriental_UOF;Y;1;0
+1614671;38_Parque Oriental_Estadio do Dragão;N;0;0
+1614756;10M_Aliados_Vila d'Este;N;0;0
+1614801;205_H.S.Joao_Campanha;N;0;0
+1614802;205/-Lidador_Campanha;N;0;0
+1614803;205_Monte dos Burgos_Castelo do Queijo;N;0;0
+1614804;205_Castelo do Queijo_Monte dos Burgos;N;0;0
+1614811;205/_S.Roque_Castelo do Queijo;N;0;0
+1614806;205/_Castelo do Queijo_S.Roque;N;0;0
+1614812;205/_Campanha_Castelo do Queijo;N;0;0
+1614808;205/_Castelo do Queijo_Campanha;N;0;0
+1614947;300_H.S.João_Santa Luzia;N;0;0
+1614810;205/_Lidador_S.Roque;N;0;0
+1614948;301_Cordoaria_H.S.João;N;0;0
+1614949;301/_Santa Luzia_H.S.João;N;0;0
+1614950;301/_H.S.João_H.S.João;N;0;0
+1615371;C24A_STLZ;N;0;0
+1614759;11M_Coimbrões_H.S.João;N;0;0
+1614758;10M_Vila d'Este_Aliados;N;0;0
+1614866;UON_Aldoar;Y;1;0
+1614867;Aldoar_UON;Y;1;0
+1614868;UON_Ponte Moreira;Y;1;0
+1614869;Ponte Moreira_UON;Y;1;0
+1614870;UON_Monte Burgos;Y;1;0
+1614871;Monte Burgos_UON;Y;1;0
+1614872;Guardeiras_UON;Y;1;0
+1614886;704/_Bom Sucesso_Codiceira;N;0;0
+1614887;704/_Codiceira_Bom Sucesso;N;0;0
+1614888;704/_H.S.Joao_Codiceira;N;0;0
+1614889;704/_Codiceira_H.S.Joao;N;0;0
+1614890;304_Aliados_Santa Luzia;N;0;0
+1614891;304_Santa Luzia_Aliados;N;0;0
+1614906;300_Praça D.João I_H.S.Joao;N;0;0
+1614907;300_H.S.Joao_H.S.Joao;N;0;0
+1614909;300_Santa Luzia_H.S.Joao;N;0;0
+1614689;901_Trindade_Cabine;N;0;0
+1614690;901_Cabine_Trindade;N;0;0
+1614726;UON_Maia-Forum;Y;1;0
+1614754;UON_Madalena;Y;1;0
+1614755;Madalena_UON;Y;1;0
+1614926;UON_Rotunda da AEP;Y;1;0
+1614927;Rotunda da AEP_UON;Y;1;0
+1615010;UON_Maia Barca;Y;1;0
+1615011;Maia Barca_UON;Y;1;0
+1615090;UOF_Coimbroes;Y;1;0
+1615091;Coimbroes_UOF;Y;1;0
+1615190;809_Alfandega_S.Roque;N;0;0
+1615191;809_S.Roque_Alfandega;N;0;0
+1615210;18_Carmo_P.Alegre;N;0;0
+1615211;18_P.Alegre_Carmo;N;0;0
+1615330;300_C24Agosto_Carvalhido;N;0;0
+1615332;300_HSJoao_C24Agosto;N;0;0
+1615334;301_HSJoao_Carvalhido;N;0;0
+1614706;809_Marques_Monte Cativo;N;0;0
+1614707;809_Monte Cativo_Marques;N;0;0
+1614813;UON_Casa da Musica;Y;1;0
+1614814;Casa da Musica_UON;Y;1;0
+1614815;UON_Foz;Y;1;0
+1614816;Foz _UON;Y;1;0
+1614910;UON_Boavista;Y;1;0
+1614911;Boavista_UON;Y;1;0
+1615170;809_Palacio_Alfandega;N;0;0
+1615171;809_Alfandega_Palacio;N;0;0
+1615172;UOF_Palacio;Y;1;0
+1615173;Palacio_UOF;Y;1;0
+1615174;UOF_Alfandega;Y;1;0
+1615175;Alfandega_UOF;Y;1;0
+1615410;205_C.Queijo_H.SJoão;N;0;0
+1615552;UON_Areosa;N;1;1
+1614850;205/_S.Roque_Lidador;N;0;0
+1614851;205_Monte dos Burgos_Lidador;N;0;0
+1614852;205_Lidador_Monte dos Burgos;N;0;0
+1614853;UON_Monte dos Burgos;N;1;0
+1614854;Monte dos Burgos_UON;N;1;0
+1614855;UON_Lidador;Y;1;0
+1614856;Lidador_UON;Y;1;0
+1614857;UOF_Valadares Estação;Y;1;0
+1614858;Valadares Estação_UOF;Y;1;0
+1614859;403_Casa da Musica_Campanha;N;0;0
+1614860;403_Campanha_Casa da Musica;N;0;0
+1615030;304/_Santa Luzia_Aliados;N;0;0
+1615250;920_Ponte Luis I_S.Ovidio;N;0;0
+1614912;UON_S.Bento;Y;1;0
+1614913;S.Bento_UON;Y;1;0
+1614951;702_Travagem_Areosa;N;0;0
+1615251;920_S.Ovido_Ponte Luis I;N;0;0
+1615252;UON_Ponte Luis I;N;1;1
+1615253;Ponte Luis I_UON;N;1;1
+1615390;UON_Queimodromo;N;1;1
+1615391;Queimodromo_UON;N;1;1
+1615490;48_Palacio_C.Queijo;N;0;0
+1615431;502_Bolhao_Castelo do Queijo;N;0;0
+1615491;48_C.Queijo_Palacio;N;0;0
+1615550;69_Areosa_Queimodromo;N;0;0
+1615551;69_Queimodromo_Areosa;N;0;0

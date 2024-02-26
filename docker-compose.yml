@@ -1,0 +1,56 @@
+version: '3'
+services:
+
+  postgres:
+    container_name: pg_container
+    image: postgres:11
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pg!password
+    ports:
+      - 5432:5432 
+
+  redis:
+    container_name: redis
+    image: redis:latest
+    restart: always
+    ports:
+      - '6379:6379'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+
+  pgadmin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4:6
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root12345
+    ports:
+      - 5050:80
+
+  backend:
+    container_name: backend
+    restart: always
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend/src:/usr/src/backend/src
+    ports:
+       - 3001:3001
+    depends_on:
+      - postgres
+      - redis
+  
+  frontend:
+    container_name: frontend
+    restart: always
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend/src:/usr/src/frontend/src
+    ports:
+      - 3000:3000

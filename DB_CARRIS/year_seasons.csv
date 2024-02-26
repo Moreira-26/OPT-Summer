@@ -1,0 +1,11 @@
+ID;NAME;OBS;CODE;SHORT_NAME;PRIORITY;ACTIVE
+1;Inverno;;2;I;10;Y
+2;Verão;;1;V;2;Y
+3;Todo o Ano;;;;;Y
+5;Ferias Escolares;;3;FE;1;Y
+1000025;Agosto;;4;A;3;Y
+1000026;Feriado;;5;-Fer;4;Y
+1000027;Feriado Agosto;;6;-FerA;5;Y
+1000028;Vespera Natal;;7;24-12;6;Y
+1000029;Natal e Ano Novo;;8;NAN;7;Y
+-1;Indefinido;OPT;;;;Y

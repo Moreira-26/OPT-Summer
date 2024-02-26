@@ -1,0 +1,63 @@
+Nodes_version: nós
+	(NODE_ID, NAME, SHORT_NAME, LATITUDE, LONGITUDE)
+
+Stops_version: paragens 
+
+	(STOP_ID, NAME, SHORT_NAME, LATITUDE, LONGITUDE, CODE)
+
+Segments_version:segmentos Y
+	(SEGMENT_ID, NAME, START_NODE_ID, END_NODE_ID, SEG_TYPE, DEFAULT_LENGTH, AVG_DURATION)
+
+Paths_version: percursos Y
+	(PATH_ID, NAME, EMPTY)
+
+Lines_version: linhas Y
+	(LINE_ID, NAME)
+
+Tracks_version: Y trajeto entre duas paragens 
+	(TRACK_ID, NAME, START_STOP, END_STOP)
+
+paths_segs: Y ordenação de segmentos num determinado percurso, Path = conjunto de segmentos 
+	(ID, SEG_ID, PATH_VERSION_ID, LENGTH, ORDER)
+
+lines_paths Y -> ligação da linha com percursos , Linha = conjunto de percursos 
+	(ID?, LINE_VERSION_ID, PATH_ID)
+
+path_segs_tracks -> ligação de um path_seg com trajetos(tracks) com ordem
+	(PATH_SEG_VERSION_ID, TRACK_ID, ORDER)
+
+glines_lines Y -> linhas de uma megalinha, Megalinha = conjunto de linhas
+	(GLINE_VERSION_ID, LINE_ID)
+
+glines_paths Y -> percursos de uma megalinha
+	(GLINE_VERSION_ID, PATH_ID, )
+
+glines_nodes_status Y -> nos de uma megalinha
+	(ID, GLINE_VERSION_ID, NODE_ID, NODE_STATUS_ID)
+
+node_status Y -> estado do no (Ponto de rendição, Terminus, Estação de Recolha)
+	(ID, NAME)
+
+Indicadores de exploração:
+- Número de percursos
+- Comprimento dos percursos
+- Número de linhas
+- Comprimento das linhas
+- Número de viagens
+- Número de turnos
+- Número de turnos em simultâneo 
+- Distância total
+- Distância útil
+- Distância em vazio
+- Tempo útil		
+- Tempo em vazio
+- Velocidade comercial em linha
+
+Numero de viaturas na linha
+Numero de turnos por linha
+Numero de horas extraordinarias na linha
+Numero de motoristas por viatura 
+Frequencia das linhas
+Amplitude do horario da linha
+
+Por indicadores de geolocalização
